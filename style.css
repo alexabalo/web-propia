@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400&family=Work+Sans:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400&family=Work+Sans:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  /*me permite deslizarme cuando hago click en los elementos..............*/
+  scroll-behavior: smooth;
+}
+
+/*menu..................................*/
+.contenedor-header {
+  background-color: #1e2326;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.contenedor-header header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  
+}
+
+.contenedor-header header .logo a {
+  font-family: "Righteous", cursive;
+  font-size: 36px;
+  color: #1cb698;
+  text-decoration: none;
+}
+.contenedor-header header ul {
+  display: flex;
+  list-style: none;
+}
+
+.contenedor-header header ul li a {
+  text-align: none;
+  color: #fff;
+  padding: 3px;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+
+.contenedor-header header ul li a:hover {
+  cursor: pointer;
+  color: #1cb698;
+}
+
+.nav-responsive {
+  display: none;
+}
+
+i {
+  font-size: 1.5em;
+}
+
+.inicio{
+    height: calc(100vh - 90px)
+}
+/*inicio....................................*/
+.contenido-banner {
+  padding: 20px;
+  background-color: #1cb698;
+  max-width: 350px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+.contenido-banner img {
+  margin-top: 40px;
+  border: 10px solid #1cb698;
+  display: block;
+  width: 80%;
+  height: 250px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.contenido-banner h1 {
+  margin-top: 40px;
+  font-size: 42px;
+}
+
+.contenido-banner h2 {
+  margin: 0 0 20px 0;
+  font-size: 1.2rem;
+}
+
+/*redes.......................................*/
+.redes a {
+  text-decoration: none;
+  color: #1e2326;
+  padding: 1rem;
+  margin: 0 5px;
+  display: inline-block;
+  border: 1px solid #1e2326;
+  border-radius: 100%;
+}
+
+.redes i:hover {
+  color: #fff;
+}
+
+/*sobre mi.......................................*/
+.sobremi{
+    width: 100%;
+    background-color: #1a1d1d;
+    padding: 40px 20px;
+}
+.contenido-seccion h2{
+    font-size: 3rem;
+    font-family: "Righteous", cursive;
+    color: #fff;
+    text-align: center;
+}
+
+.contenido-seccion p{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    margin: 20px auto;
+    line-height: 20px;
+}
+
+/*sobre mi button.......................................*/
+
+.sobremi button{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: fit-content;
+  display: block;
+  margin: 40px auto;
+  padding: 10px 22px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+.sobremi i{
+  margin-left: 20px;
+}
+
+button .overlay{
+  position: absolute;
+  font-size: ;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #1cb698;
+  z-index: -1;
+  transition: 1s;
+}
+
+button:hover .overlay{
+  width: 100%;
+}
+
+/*sobre mi button.......................................*/
+
+
+.skills .skill > span{
+  display: block;
+  font-weight: bold;
+}
+
+
+
+
+
